@@ -365,12 +365,24 @@ footer p a:hover {
     }
 
     li.video-item a {
-        display: none;
+        display: block;
+        background-color: inherit;
+        color: white;
+    }
+
+    li.video-item a:hover {
+        background-color: inherit;
+        color: gainsboro;
+    }
+
+    li.video-item {
+        width: 30%;
     }
 
     li.video-item iframe {
         display: block;
-        height: 200px;
+        height: 250px;
+        width: 100%;
     }
 
     #six {
