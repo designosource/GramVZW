@@ -5,6 +5,7 @@ $(document).ready(function() {
         if($('#myMenu').is(':visible')) {
             $('#myMenu').hide(500)
             $('.icon').html('<i class="fas fa-bars"></i>');
+            if($('.topnav a').click());
         }
         else {
             $('#myMenu').show(500);
