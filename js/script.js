@@ -5,12 +5,17 @@ $(document).ready(function() {
         if($('#myMenu').is(':visible')) {
             $('#myMenu').hide(500)
             $('.icon').html('<i class="fas fa-bars"></i>');
-            if($('.topnav a').click());
+
         }
         else {
             $('#myMenu').show(500);
             $('.icon').html('<i class="fas fa-times"></i>');
         }
+    });
+
+    $('#myMenu a').on("click", function(){
+        $('#myMenu').hide(400);
+        $('.icon').html('<i class="fas fa-bars"></i>');
     });
 
     window.onscroll = function() {myFunction()};
